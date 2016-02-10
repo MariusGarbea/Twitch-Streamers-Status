@@ -19,7 +19,7 @@ $(document).ready(function() {
         pic = data.logo != null ? data.logo : "http://cdn.truthinmedia.com/wp-content/uploads/2014/10/bigstock-silhouette-with-a-question-mar-59367497.jpg";
         name = data.display_name != null ? data.display_name : channel;
         details = status == "online" ? data.status.substring(0, 50) + ' ...' : "";
-        commit = '<div class="fond ' + status + '"><div class="col-xs-2"><img src="' + pic + '" class="picture"></div><div class="col-xs-3 vert-align"><a href="' + data.url + '"  target="_blank" style="color: black; font-size: 18px;">' + name + '</a></div><div class="vert-align col-xs-7" style="text-align:center">' + game + '<br>' + details + '</div></div>';
+        commit = '<div class="fond ' + status + '"><div class="col-xs-2"><img src="' + pic + '" class="picture"></div><div class="col-xs-3 vert-align"><a href="' + data.url + '"  target="_blank" style="color: black; font-size: 18px">' + name + '</a></div><div class="vert-align col-xs-7" style="text-align:center">' + game + '<br>' + details + '</div></div>';
         if (status == "online")
           $("#streams").prepend(commit);
         else

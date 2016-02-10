@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Simonetta:400,900italic);
+body {
+  background: url(http://orig13.deviantart.net/6bad/f/2012/085/c/1/c1e830c9dfec5c784b61f777bd77b5e5-d4tzvzw.png) fixed;
+  background-size: cover;
+}
+
+p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 80px;
+  color: Teal;
+  font-family: 'Simonetta', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fond {
+  width: 600px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 5px;
+  color: black;
+  font-family: 'Simonetta', cursive;
+  font-weight: bold;
+}
+
+.online {
+  background-color: ForestGreen;
+}
+
+.offline {
+  background-color: DarkCyan;
+}
+
+.closed {
+  background-color: Tomato;
+}
+
+.picture {
+  border-radius: 50%;
+  width: 50px;
+  position: relative;
+  transform: translateY(12.5%);
+}
+
+.vert-align {
+  position: relative; 
+  top: 50%; 
+  transform: translateY(-50%);
+}

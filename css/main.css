@@ -48,3 +48,27 @@ p {
   top: 50%;
   transform: translateY(-50%);
 }
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  text-align: center;
+  position: relative;
+  right: 100px;
+  height: 30px;
+}
+
+button {
+  position: relative;
+  left: 100px;
+  background: black;
+  border: none;
+  outline: none;
+}
+
+i {
+  color: white;
+}

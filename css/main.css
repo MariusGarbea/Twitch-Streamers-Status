@@ -52,6 +52,9 @@ p {
 form {
   text-align: center;
   margin-bottom: 20px;
+  font-family: 'Simonetta', cursive;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 input {
